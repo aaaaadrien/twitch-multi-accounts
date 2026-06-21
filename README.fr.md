@@ -49,22 +49,22 @@ Lorsqu'on passe d'un onglet Twitch assigné à un autre, l'échange de cookies s
 ### Configuration initiale
 
 **Compte A (ex: adrienLinuxtricks) :**
-1. Va sur [twitch.tv](https://www.twitch.tv) et connecte-toi avec le compte A.
-2. Ouvre le popup de l'extension → clique sur **＋ Add this account** (Ajouter ce compte) → donne-lui un nom → Enregistre.
-   *(tes cookies actuels sont capturés et stockés)*
+1. Aller sur [twitch.tv](https://www.twitch.tv) et se connecter avec le compte A.
+2. Ouvrir le popup de l'extension → cliquer sur **＋ Add this account** (Ajouter ce compte) → donner-lui un nom → Enregistrer.
+   *(les cookies actuels sont capturés et stockés)*
 
 **Compte B (ex: adrienLT_DJ) :**
-1. Dans le popup, clique sur **Open** sur le compte A — cela charge ses cookies dans un nouvel onglet.
-2. Déconnecte-toi de Twitch, puis connecte-toi avec le compte B.
-3. Ouvre le popup → **＋ Add this account** → donne-lui un nom → Enregistre.
+1. Dans le popup, cliquer sur **Open** sur le compte A — cela charge ses cookies dans un nouvel onglet.
+2. Se déconnecter de Twitch, puis se connecter avec le compte B.
+3. Ouvrir le popup → **＋ Add this account** → lui donner-lui un nom → Enregistrer.
 
-Tu as maintenant deux emplacements sauvegardés. Clique sur **Open** sur l'un ou l'autre pour ouvrir un onglet Twitch avec la bonne session.
+On a maintenant deux emplacements sauvegardés. Cliquer sur **Open** sur l'un ou l'autre pour ouvrir un onglet Twitch avec la bonne session.
 
 ### Utilisation quotidienne
 
-- Clique sur **Open** à côté d'un compte pour ouvrir un nouvel onglet Twitch pour ce compte.
-- Navigue entre les onglets normalement — les cookies sont échangés automatiquement lorsque l'onglet passe au premier plan.
-- Clique sur ✎ pour renommer un compte ou changer sa couleur.
+- Cliquer sur **Open** à côté d'un compte pour ouvrir un nouvel onglet Twitch pour ce compte.
+- Naviguer entre les onglets normalement — les cookies sont échangés automatiquement lorsque l'onglet passe au premier plan.
+- Cliquer sur ✎ pour renommer un compte ou changer sa couleur.
 - Le badge **Active** indique quel compte est actuellement attribué à l'onglet en cours.
 
 ---
@@ -79,4 +79,4 @@ Tu as maintenant deux emplacements sauvegardés. Clique sur **Open** sur l'un ou
 
 ## Licence
 
-Projet personnel — aucune licence, aucune garantie. À utiliser à tes propres risques.
+Projet personnel — aucune licence, aucune garantie. À utiliser à vos propres risques.
