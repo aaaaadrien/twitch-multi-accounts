@@ -2,6 +2,8 @@
 
 A browser extension for Vivaldi (and any Chromium-based browser) to use multiple Twitch accounts simultaneously in the same window.
 
+![twitch-multi-accounts](twitch-multi-accounts.png)
+
 ---
 
 ## Why this extension exists

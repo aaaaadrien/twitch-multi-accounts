@@ -2,6 +2,8 @@
 
 Une extension de navigateur pour Vivaldi (et n'importe quel navigateur basé sur Chromium) permettant d'utiliser plusieurs comptes Twitch simultanément dans la même fenêtre.
 
+![twitch-multi-accounts](twitch-multi-accounts.png)
+
 ---
 
 Je gère deux comptes Twitch dans le cadre de mon installation de streaming DJ :
