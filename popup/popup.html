@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch Multi-Account</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<div id="app">
+
+  <header>
+    <svg class="logo" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+      <rect width="20" height="20" rx="4" fill="#9146ff"/>
+      <path d="M5 4h2v6H5zm4 0h2v4H9z" fill="white"/>
+      <rect x="5" y="14" width="2" height="2" fill="white"/>
+      <rect x="9" y="12" width="2" height="2" fill="white"/>
+    </svg>
+    <span class="title">Twitch Multi-Account</span>
+  </header>
+
+  <!-- Main view -->
+  <div id="view-main">
+
+    <div id="no-slots" class="empty hidden">
+      <div class="empty-icon">👤</div>
+      <div>No account saved yet.<br>Log in to Twitch then click <strong>＋ Add this account</strong>.</div>
+    </div>
+
+    <div id="slots-list"></div>
+
+    <div class="footer-actions">
+      <button id="btn-add-slot" class="btn-primary">＋ Add this account</button>
+    </div>
+
+    <div id="current-tab-info" class="tab-info hidden">
+      <span id="tab-info-text"></span>
+    </div>
+
+  </div>
+
+  <!-- View: name the new slot -->
+  <div id="view-name" class="hidden">
+    <div class="edit-header">
+      <button id="btn-name-back" class="btn-icon">‹</button>
+      <span>Name this account</span>
+    </div>
+    <div class="form-group">
+      <label>Display name</label>
+      <input type="text" id="input-name" placeholder="e.g. MyUsername" maxlength="32">
+    </div>
+    <div class="form-group">
+      <label>Color</label>
+      <div id="color-picker" class="picker-grid"></div>
+    </div>
+    <div class="form-actions">
+      <button id="btn-name-save" class="btn-primary">Save</button>
+    </div>
+  </div>
+
+  <!-- View: edit an existing slot -->
+  <div id="view-edit" class="hidden">
+    <div class="edit-header">
+      <button id="btn-edit-back" class="btn-icon">‹</button>
+      <span id="edit-title">Edit account</span>
+    </div>
+    <div class="form-group">
+      <label>Display name</label>
+      <input type="text" id="edit-input-name" maxlength="32">
+    </div>
+    <div class="form-group">
+      <label>Color</label>
+      <div id="edit-color-picker" class="picker-grid"></div>
+    </div>
+    <div class="form-actions">
+      <button id="btn-edit-delete" class="btn-danger">Delete</button>
+      <button id="btn-edit-save" class="btn-primary">Save</button>
+    </div>
+  </div>
+
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
