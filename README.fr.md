@@ -77,6 +77,11 @@ On a maintenant deux emplacements sauvegardés. Cliquer sur **Open** sur l'un ou
 
 ---
 
+## À propos de l'IA
+Cette extension a été co-développée avec Claude. ClaudeAI a commenté le code, l'a corrigé et a rédigé cette documentation en anglais et fait la traduction FR (Readme.fr).
+
+---
+
 ## Licence
 
 Projet personnel — aucune licence, aucune garantie. À utiliser à vos propres risques.

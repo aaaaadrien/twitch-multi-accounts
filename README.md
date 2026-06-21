@@ -79,6 +79,12 @@ You now have two saved slots. Click **Open** on either to open a Twitch tab with
 
 ---
 
+## About AI
+
+This extension co-developped with Claude. ClaudeAI commented the code, fixed the code, and wrote this documentation (Readme).
+
+---
+
 ## License
 
 Personal project — no licence, no warranty. Use at your own risk.
